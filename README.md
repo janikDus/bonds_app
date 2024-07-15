@@ -9,6 +9,8 @@ Run App localy:
    cmd: conda activate <env_name>
  - install reqirements
    cmd: pip install -r requirements.txt
+ - test API:
+   cmd: python manage.py test
  - run django server
    cmd: python manage.py runserver
 
